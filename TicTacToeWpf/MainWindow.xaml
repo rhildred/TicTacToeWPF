@@ -1,0 +1,53 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Tic Tac Toe" Height="312" Width="301">
+    <Grid>
+        <Button x:Name="btnX0" Content="" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black" Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnY0" Content="" HorizontalAlignment="Left" Margin="26,121,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black" Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnZ0" Content="" HorizontalAlignment="Left" Margin="26,225,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnX1" Content="" HorizontalAlignment="Left" Margin="123,16,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnY1" Content="" HorizontalAlignment="Left" Margin="123,121,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnZ1" Content="" HorizontalAlignment="Left" Margin="123,225,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnX2" Content="" HorizontalAlignment="Left" Margin="221,16,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnY2" Content="" HorizontalAlignment="Left" Margin="221,121,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnZ2" Content="" HorizontalAlignment="Left" Margin="221,225,0,0" VerticalAlignment="Top" Cursor="Hand" Width="39" BorderThickness="2" Height="31" BorderBrush="Black"  Click="ButtonClicked">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
